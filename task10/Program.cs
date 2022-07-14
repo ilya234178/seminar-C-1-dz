@@ -7,14 +7,17 @@
 
 
 Console.WriteLine("Ведите трехзначное число: ");
+
 int num = Convert.ToInt32(Console.ReadLine());
 
-int result =  secondNumber(num);
+int result = secondNumber(num);
+
 
 Console.WriteLine($"{num} -> {result}");
 
+
 int secondNumber(int num)
 {
-       return num / 10 % 10;
-}  
-
+     return num / 10 % 10;
+}
+   

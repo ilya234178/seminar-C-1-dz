@@ -11,7 +11,7 @@
 
 // 1, 7 -> такого числа в массиве нет
 
-Console.Write("Введите координаты позиции элемента, разделенных запятой: ");
+Console.Write("Введите координаты двумерного массива: ");
 Console.Write("Введите m: ");
 int m = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите n: ");
